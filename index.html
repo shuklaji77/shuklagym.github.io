@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shukla gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('wallpaperflare.com_wallpaper (1).jpg'), url('wallpaperflare.com_wallpaper.jpg');
+            background-repeat: no-repeat;
+            height: 1500px;
+            background-position: center top, center bottom;
+        }
+
+        .left {
+            display: inline-block;
+            position: fixed;
+            top: 2px;
+            left: 10px;
+            /* margin: 10px auto;
+            width: 90px; */
+
+        }
+
+        .mid {
+            display: block;
+            margin: 0px auto;
+            width: 45%;
+            height: 65px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            /* margin: 10px auto;
+            width: 100px;
+            float: right; */
+        }
+
+        .left img {
+            width: 95px;
+            padding-left: 25px;
+
+        }
+
+        .left div {
+            line-height: 0px;
+            text-align: center;
+            font-family: 'Shantell Sans', cursive;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            font-family: 'Shantell Sans', cursive;
+            text-decoration: none;
+            color: black;
+            font-size: 21px;
+            padding: 0px 29px;
+            border: none;
+            border-radius: 10px;
+
+        }
+
+        .navbar {
+            margin: 0px 0px;
+            padding: 0px 0px;
+            position: fixed;
+            top: 2px;
+            border: 2px solid #b4b3b3;
+            border-radius: 10px;
+            background-color: #b4b3b3;
+
+        }
+
+        .navbar li a:hover {
+            background-color: white;
+            color: grey;
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 35px;
+        }
+
+        .navbar ul {
+            margin: 0px 0px;
+            padding: 0px 29px;
+        }
+
+        .btn {
+            padding: 4px 8px;
+            margin: 3px 10px;
+            font-family: 'Shantell Sans', cursive;
+            font-size: 14px;
+            background-color: #b4b3b3;
+            border: 1px solid #b4b3b3;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: grey;
+            font-size: 22px;
+            font-family: 'PT Sans Narrow', sans-serif;
+
+        }
+
+        .formpage {
+           
+            display: inline-block;
+            width: 456px;
+            float: right;
+            margin: 2px auto;
+            padding: 27px 11px;
+            background-image: url('fitness-g881a1136b_1280.png');
+            background-repeat: no-repeat;
+            background-size: 127px;
+            background-position: center;
+        }
+        .head h2{
+            background-image: url('wallpaperflare.com_wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-clip:border-box;
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+            background-position: center;
+            margin: 0px 0px;
+            padding: 0px 0px;
+            text-transform:uppercase;
+        }
+        .head{
+            margin-top: -27px;
+            border-bottom: 2px solid black;
+            border-bottom-style: dashed;
+            border-radius: 10px;
+            
+        }
+        .para{
+            margin: 0x 0px;
+            padding: 31px 0px;
+            font-family:'Shantell Sans', cursive;
+        }
+        .formgroup{
+            font-family: 'PT Sans Narrow', sans-serif;
+            display: inline-block;
+            margin: 15px 31px ;
+            color:grey;
+            font-size:larger;
+
+        }
+        .formgroup input{
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 15px;
+            
+        }
+        .formbody{
+            display: inline block;
+            margin: auto;
+            width: 259px;
+        }
+        .formbody .btn{
+            display: block;
+            width: 163px;
+            margin: auto;
+
+        }
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="goal-g6badfb4ba_1920.png " alt="">
+            <div>Shukla fitness club</div>
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">contact us</button>
+        </div>
+        <div class="formpage">
+            <div class="head">
+                <h2>FOR TRANSFORMATION JOIN US NOW</h2>
+            </div>
+            <div class="para">
+                Shape your body and burn fat with strength training. With the right equipment such as free weights or
+                resistance machines.
+            </div>
+            <form class="formbody" action="backend.php">
+                <div class="formgroup">
+                   First name: <input type="text" name="FIRST NAME" id="" placeholder="Amit">
+                </div>
+                <div class="formgroup">
+                   Last name: <input type="text" name="LASTNAME" id="" placeholder="Shukla">
+                </div>
+                <div class="formgroup">
+                    Gender: Mail-<input type="radio" name="GENDER" id="" checked> Femail-<input type="radio" name="GENDER" id="">
+                </div>
+                <div class="formgroup">
+                   Birthday: <input type="date" name="DOB" id="" placeholder="">
+                </div>
+                <div class="formgroup">
+                    Email id: <input type="text" name="MAIL" id="" placeholder="xyz@gmail.com">
+                </div>
+                <div class="formgroup">
+                    Contact no.: <input type="text" name="CONTACT" id="" placeholder="0123456789">
+                </div>
+                <div class="formgroup">
+                   <button class="btn">Submit now</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
